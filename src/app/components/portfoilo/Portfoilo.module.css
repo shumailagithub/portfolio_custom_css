@@ -1,0 +1,58 @@
+.portfolioMainDiv{
+    width: 100%;
+    background-color:var(--background-black);
+    text-align: center;
+    padding: 8rem 32px;
+
+}
+.portfolioMainDiv h1{
+    color: var(--hover-button-color);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+
+}
+.portfolioMainDiv span{
+font-size: 48px;
+font-weight: 600;
+line-height: 3rem;
+text-align: center;
+
+&:hover{
+    background-color: var(--logo-color);
+}
+}
+
+.portfolioMainDiv p{
+    white-space: pre-wrap; /* Ensure proper wrapping of text */
+    color: black;
+    line-height: 1.5rem;
+    margin-bottom: 40px;
+}
+.myWork{
+    width: 100%;
+    display: grid;
+    gap: 95px;
+    background-color: var(--background-black);
+    grid-template-columns: repeat(3, 1fr);
+}
+@media(max-width: 768px){
+    .myWork{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 112px;
+
+    }
+    .portfolioMainDiv p{
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #03346E;
+        }
+}
+
+@media(max-width: 390px){
+    .myWork{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+
+    }
+}

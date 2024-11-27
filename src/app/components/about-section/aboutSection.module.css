@@ -1,0 +1,95 @@
+.aboutMainDiv {
+    width: 100%;
+    background-color: var(--background-black);
+    padding: 5rem 2rem; /* Adjust padding for smaller screens */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+}
+
+.aboutLeftDiv {
+    flex: 1 1 40%; /* Flex-grow for responsiveness */
+    max-width: 500px; /* Limit maximum width */
+    margin: 2rem auto; /* Center on smaller screens */
+    text-align: center; /* Center text for better layout */
+}
+
+.aboutLeftDiv h1 {
+    color: var(--hover-button-color);
+    font-weight: 600;
+    font-size: 2.5rem; /* Adjust font size */
+    line-height: 3rem;
+}
+
+.aboutLeftDiv p {
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: 400;
+    line-height: 2rem;
+    color: var(--hover-button-color);
+    margin-bottom: 1rem;
+}
+
+.aboutLeftDiv pre {
+    white-space: pre-wrap; /* Ensure proper wrapping of text */
+    color: black;
+    line-height: 1.5rem;
+}
+
+.aboutLeftDiv button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: var(--hover-button-color);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.aboutLeftDiv button:hover {
+    background-color: var(--logo-color);
+}
+
+.rightProfilePicDiv {
+    flex: 1 1 40%; /* Flex-grow for responsiveness */
+    max-width: 300px;
+    margin: 2rem auto; /* Center on smaller screens */
+    text-align: center;
+}
+
+.rightProfilePicDiv img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .aboutMainDiv {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+        padding: 2rem 1rem; /* Reduce padding */
+    }
+
+    .aboutLeftDiv {
+        width: 90%; /* Full width on smaller screens */
+        margin: 1rem 0;
+    }
+
+    .rightProfilePicDiv {
+        width: 80%; /* Scale image container */
+        margin-top: 1rem;
+    }
+
+    .aboutLeftDiv h1 {
+        font-size: 2rem; /* Smaller font size for smaller screens */
+    }
+
+    .aboutLeftDiv p {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,53 @@
+/* Card CSS */
+.Card{
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: calc((100% - 64px) /3);
+    padding: 2.125rem 1.75rem 3.5rem 1.75rem;
+    background-color: var(--bottomImgDiv-color);
+    text-align: center;
+    border-radius: 1rem;
+    border-top: 5px solid #021526;
+    margin-right: 32px;
+   
+}
+
+.CardImage{
+   width: 40%;
+   height: 48%;
+   border-radius: 50%;
+   border: .1875rem solid #E5E7EB;
+   overflow: hidden;
+   margin: auto;
+   margin-bottom: 1rem;
+}
+
+.Img{
+    width: 100%;
+    height: 100%;
+}
+
+.Card p {
+    font-size: .9375rem;
+    color: white;
+    text-wrap: wrap;
+    margin-bottom: 1rem;
+
+}
+.Card span{
+    color: var(--background-black);
+}
+
+@media (max-width: 768px){
+    .Card{
+    width: calc((100% - 32px) /2);
+
+    }
+}
+
+@media (max-width: 390px){
+    .Card{
+    width: calc((100% - 32px) /1);
+
+    }
+}

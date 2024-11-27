@@ -1,0 +1,47 @@
+.footer {
+   width: 100%;
+   height: auto; /* Allow height to adjust automatically for smaller screens */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #2f2e2e;
+   padding: 16px 8px; /* Reduce padding for smaller screens */
+ }
+ 
+ .footerText {
+   font-size: 18px; /* Smaller font size for smaller screens */
+   color: white;
+   line-height: 24px; /* Adjust line-height for readability */
+   text-align: center; /* Center text alignment for better appearance */
+ }
+
+
+
+ @media (min-width: 768px) {
+   .footer {
+     height: 60px;
+     padding: 24px 0px; /* Restore original padding for larger screens */
+   }
+ 
+   .footerText {
+     font-size: 30px; /* Restore original font size for larger screens */
+     line-height: 42px; /* Restore original line height */
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

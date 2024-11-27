@@ -1,0 +1,72 @@
+.hero{
+  width: 100%;
+  background-color: #b9b6b6;
+  text-align: center;
+  padding-top: 7.4688rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero h1{
+  font-size: 1.8987rem;
+  line-height: 3rem;
+  color: #404040;
+}
+
+
+.hero span{
+  color: #03346E;
+}
+
+.hero p{
+  margin-top: 20px;
+  margin-bottom: 2.0313rem;
+}
+
+.socialIconsDiv{
+  margin: auto;
+  padding: .6875rem 1.6875rem;
+  display: inline-flex;
+  gap: 3.125rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #03346E;
+  color: white;
+  border-radius: 1.625rem;
+  margin-top: 3.125rem;
+  margin-bottom: 4.375rem;
+}
+
+.bottomImageDiv {
+  width: 85%;
+  margin: auto;
+  background-color: #404040;
+  border-radius: 16px;
+  padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+  display: flex;
+  gap: 16px; /* Reduced gap for smaller screens */
+  justify-content: center; /* Center content for small screens */
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  align-items: center;
+}
+
+.bottomImageDiv img {
+  width: 80px; /* Adjust image size for smaller screens */
+  height: auto;
+}
+
+
+
+@media (min-width: 768px) {
+  .bottomImageDiv {
+
+    padding: 0.5rem 9.0625rem; /* Original padding */
+    gap: 16px; /* Original gap */
+    justify-content: space-between;
+  }
+
+  .bottomImageDiv img {
+    width: 140px; /* Restore original size for larger screens */
+    height: 140px;
+  }
+}

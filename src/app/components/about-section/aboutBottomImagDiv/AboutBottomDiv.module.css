@@ -1,0 +1,29 @@
+.aboutBottumDiv{
+    width: 100%;
+    background-color: var(--background-light-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 4.9375rem;
+    gap: 4rem;
+    
+    
+}
+
+
+
+@media(max-width: 768px){
+    .aboutBottumDiv{
+        padding: 20px 0px;
+        gap: 0rem;
+    }
+}
+
+@media(max-width: 390px){
+    .aboutBottumDiv{
+        padding: 42px 0px;
+        gap: 3.125rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}

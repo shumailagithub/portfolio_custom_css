@@ -1,0 +1,36 @@
+/* ye yahan ka ni hai */
+.card{
+    padding: 24px 16px;
+    background-color: var(--bottomImgDiv-color) ;
+    border-radius: 4px;
+    margin-top: 50px;
+    color: white;
+    transition:background-color 0.3s ease-in-out ;
+
+    &:hover{
+        
+        background-color: #8f8e8e;
+    }
+    
+    }
+    .cardImage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 58px;
+    }
+    .cardText h1{
+        font-size: 25px;
+        text-align: left;
+        color: black;
+    }
+    .card pre{
+        text-wrap: wrap;
+        text-align: left;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-top: 20px ;
+        color: white;
+    }

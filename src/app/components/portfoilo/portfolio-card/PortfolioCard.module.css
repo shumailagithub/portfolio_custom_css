@@ -1,0 +1,52 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+ }
+ .cardImage{
+     height: 25.375rem;
+     background-color: gray;
+     border-radius: 24px;
+     overflow: hidden;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .cardText{
+     height: auto;
+     margin-top: 40px;
+     margin-left: -50px;
+     font-size: 25px;
+     font-weight: 600;
+     color: #03346E;
+     text-decoration: underlin #03346E 3px whitesmoke;
+ }
+ .img{
+   transition: all 0.6s ease-in-out; 
+ }
+ .img:hover{
+    rotate: -2deg;
+    scale: 1.05;
+ }
+
+
+ @media (max-width: 768px){
+    .cardImage{
+        height: 15rem;
+        
+    }
+ }
+
+ @media (max-width: 390px){
+    .cardImage{
+        width: 300px;
+        padding: 72px 32px;  
+    }
+
+    .cards{
+        margin: auto;
+        align-items: center;
+    }
+    .cardText{
+        margin-left: 0px;
+    }
+ }
