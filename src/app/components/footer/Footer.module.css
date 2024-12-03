@@ -19,12 +19,12 @@
 
  @media (min-width: 768px) {
    .footer {
-     height: 60px;
+     height: 40px;
      padding: 24px 0px;   /*Restore original padding for larger screens*/
    }
  
    .footerText {
-     font-size: 30px; /* Restore original font size for larger screens */
+     font-size: 20px; /* Restore original font size for larger screens */
      line-height: 42px; /* 42px; Restore original line height */
    }
  }
