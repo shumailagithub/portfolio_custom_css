@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import styles from './aboutBottomDiv.module.css'
+import styles from './AboutBottomDiv.module.css'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 

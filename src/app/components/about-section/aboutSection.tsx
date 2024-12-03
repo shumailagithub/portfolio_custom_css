@@ -22,11 +22,18 @@ function AboutSection() {
         <motion.div className={styles.aboutLeftDiv}>
             <h1 className={`${caveatFont.className} ${styles.h1Name}`}>Shumaila Gulfam</h1>
             <p className={caveatFont.className}>Freelance Web Developer</p>
-            <pre className={styles.pre}>I'm Shumaila, a passionate front-end web developer 
-                with a focus on creating visually appealing and user-friendly web experiences.
-                With a strong foundation in HTML, CSS, and TypeScript, I enjoy building 
-                interactive, responsive websites that make an impact. Continuously learning 
-                and growing in web development</pre>
+            
+            <pre className={styles.pre}>
+              I&#39;m Shumaila, a passionate front-end web developer 
+               with a focus on creating visually appealing and user-friendly web experiences.
+               With a strong foundation in HTML, CSS, and TypeScript, I enjoy building 
+               interactive, responsive websites that make an impact. Continuously learning 
+               and growing in web development
+            </pre>
+
+
+
+
         <Button text={"Contact Me"}/>
 
         </motion.div>

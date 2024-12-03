@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './Portfoilo.module.css'
 import { caveatFont, interFont } from '@/font'
-import { div } from 'framer-motion/client'
-import Image from 'next/image'
 import PortfolioCard from './portfolio-card/PortfolioCard'
 
 
@@ -23,15 +21,15 @@ function Portfoilo() {
                     my attention to design, functionality, and responsiveness, reflecting my dedication
                     to creating high-quality web experiences.</p>
 
-                    <div className={styles.myWork}>
-
-                      
-
-                        <PortfolioCard/>
-                       
+                <div className={styles.myWork}>
 
 
-                    </div>
+
+                    <PortfolioCard />
+
+
+
+                </div>
             </section>
         </>
     )

@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import styles from './Header.module.css';
+import styles from './header.module.css';
 import { caveatFont, interFont } from '@/font';
 import Link from 'next/link';
 import { GiHamburgerMenu } from "react-icons/gi";

@@ -5,7 +5,7 @@ import styles from './servicesCard.module.css'
 import { interFont } from '@/font'
 import { ServicesCards } from '@/constant/servicesCard'
 import { motion, useMotionValue, useTransform } from "framer-motion"
-import { rect } from 'framer-motion/client'
+
 
 
 
