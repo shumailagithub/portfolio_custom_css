@@ -12,16 +12,16 @@ import ContactUs from "./components/contact-us/ContactUs";
 
 export default function Home() {
   return (
-      <>
-    
-      <HeroSection/>
-      <AboutSection/>
-      <AboutBottomDiv/>
-      <Portfoilo/>
-      <Services/>
-      <Testimonials/>
-      <ContactUs/>
-    
-      </>
+    <>
+
+      <HeroSection />
+      <AboutSection />
+      <AboutBottomDiv />
+      <Portfoilo />
+      <Services />
+      <Testimonials />
+      <ContactUs />
+
+    </>
   );
 }

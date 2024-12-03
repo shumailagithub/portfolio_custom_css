@@ -6,7 +6,7 @@ export const portfolioCards = [
         title: "CountDown Timer",
         href: "https://www.google.com/",
 
-     },
+    },
     {
         id: 2,
         type: "video",
