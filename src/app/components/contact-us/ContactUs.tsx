@@ -15,7 +15,7 @@ function ContactUs() {
     e.preventDefault();
 
     const templateParams = {
-      to_name: "Taha Ahmed",
+      to_name: "Shumaila Gulfam",
       from_name: name,
       from_email: email,
       message: message
@@ -54,7 +54,7 @@ function ContactUs() {
               <div className={styles.contactLeftDivText}>
                 <h6>Have a question?</h6>
                 <h6>I am here to help you</h6>
-                <h6>Email me at tahaAhmed@gmail.com</h6>
+                <h6>Email me at shumailagulfam3@gmail.com</h6>
               </div>
             </div>
 
